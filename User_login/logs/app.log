@@ -1,0 +1,8 @@
+2025-07-29 12:48:06 [main] DEBUG user.UserManager - Intento fallido de registro de usuariouser.User: `rot`
+2025-07-29 12:50:29 [main] DEBUG user.UserManager - Intento fallido de registro de usuario: `rot`
+2025-07-29 12:50:29 [main] ERROR user.UserManager - *******************************************************************************
+That user’s already in the game ⚡️, try a different one 🤔, don’t get stuck! 🚀 
+*******************************************************************************
+
+2025-07-29 12:52:46 [main] DEBUG user.UserManager - Intento fallido de registro de usuario: `rot`
+2025-07-29 12:52:46 [main] WARN  user.UserManager - Already

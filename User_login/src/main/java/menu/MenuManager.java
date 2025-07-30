@@ -7,24 +7,23 @@ import java.util.Scanner;
 
 public class MenuManager {
 
-    private UserManager userManager;
-    private Scanner scan;
+    private final UserManager userManager;
+    private final Scanner scan;
 
     public MenuManager(){
         this.userManager = new UserManager();
         this.scan = new Scanner(System.in);
     }
 
-
-
     public void showMainMenu(){
-        String option = "";
+        String option;
+
         do{
             System.out.println(MenuMessage.OPTIONS);
             option = scan.nextLine();
             showSubMenu(option);
 
-        }while(!option.equalsIgnoreCase("3"));
+        } while(!option.equalsIgnoreCase("3"));
 
         scan.close();
     }
@@ -63,6 +62,5 @@ public class MenuManager {
         System.out.println(MenuMessage.ENTER_PASS);
         return scan.nextLine();
     }
-
 
 }

@@ -10,4 +10,7 @@ public record LoggingMsg() {
             "Autenticación de usuario exitosa";
     public static final String LOGIN_FAIL =
             "Intento fallido de autenticación de usuario";
+    public static final String IO_FAIL =
+            "IO Exception!";
+
 }
